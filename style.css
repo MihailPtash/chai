@@ -1,0 +1,122 @@
+html,
+body{
+    font-family:Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color:black;
+    opacity:0.9;
+}
+
+.block-one{
+    height:69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    color: white;
+}
+
+.text {
+    margin: 0;
+}
+
+  ul {
+    
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    font-size:1.20rem; 
+    text-decoration: underline;
+    margin:0 1rem; 
+    display:inline-flex;
+  }
+
+  .block-one img {
+    height:50px;
+    margin:0 10px;
+  }
+  
+  .block-two{
+    background-image: url('photo/img-mission-background.jpg');
+    display:flex;
+    height:700px;
+    align-items: center;
+    justify-content: center;
+    margin:0 40px;
+  }
+
+  .text2 {
+    background-color:black;
+    width:100%;
+    text-align: center;
+  }
+
+  .block-three {
+    background-color:black;
+    width:100%;
+    text-align: center;
+  }
+
+  .photo{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .photo img{
+width:300px;
+height: 200px;
+  }
+
+  .pisul{
+    margin:20px;
+  }
+  
+  .pisul h4{
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .block-four {
+    height: 500px;
+    background-image: url(photo/img-locations-background.jpg);\
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0 40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+  }
+
+  .pisa {
+    background-color: black;
+    flex-direction:column;
+    width:300px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 20px;
+  }
+
+  .block-four h2 {
+    padding:0;
+    margin:15px auto;
+    width:100%;
+    text-align: center;
+  }
+
+  .block-five {
+    text-align:center;
+    height: 200px;
+    margin:0 auto;
+  }
+
+  footer{
+    text-align: left;
+    margin:auto 20px;
+  }
